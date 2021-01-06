@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+            src="https://kit.fontawesome.com/64d58efce2.js"
+            crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Sign in & Sign up Form</title>
+</head>
+<body>
+<div class="container">
+    <div class="forms-container forms" id="login-wrapper">
+        <div class="form-wrapper signin-signup">
+            <form class="sign-in-form light-border" id="login-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="light-border" id="float" name="username" autocomplete="off" required/>
+                    <label for="float" class="label-float">
+                        <span class="content-float">Username</span>
+                    </label>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="light-border" name="password" required/>
+                    <label for="float" class="label-float">
+                        <span class="content-float">Password</span>
+                    </label>
+                </div>
+                <input type="submit" value="Login" class="btn solid light-border"/>
+                <a href="FashionWeek.html"><input type="button" value="Enter as a Guest" class="btn solid light-border"/></a>
+            </form>
+
+
+
+
+
+            <form   class="sign-up-form light-border" id="addUserForm">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="light-border" name="name" pattern=".{3,}" autocomplete="off" required/>
+                    <label for="float" class="label-float">
+                        <span class="content-float">Username</span>
+                    </label>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" class="light-border" name="email" autocomplete="off" required/>
+                    <label for="float" class="label-float">
+                        <span class="content-float">Email</span>
+                    </label>
+
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="light-border" name="passwd" pattern="(?=.*[A-Z]).{8,}" required/>
+                    <label for="float" class="label-float">
+                        <span class="content-float">Password</span>
+                    </label>
+                </div>
+                <input type="submit" class="btn light-border" value="Sign up" />
+            </form>
+        </div>
+    </div>
+
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+                <h3>New here ?</h3>
+                <p>
+                    Join us to get early access to information, events, deals and industry insights.
+                </p>
+                <button class="btn-sign-up transparent" id="sign-up-btn">
+                    Sign up
+                </button>
+            </div>
+        </div>
+        <div class="panel right-panel">
+            <div class="content">
+                <h3>One of us ?</h3>
+                <p>
+                    Great! you are a part of a secret fashion community &#128521;
+                </p>
+                <button class="btn transparent" id="sign-in-btn">
+                    Sign in
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="js/index.js"></script>
+<script src="./js/serialize.js"></script>
+</body>
+</html>

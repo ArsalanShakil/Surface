@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="./css/Posts.css">
+    <link rel="stylesheet" href="./css/Home.css">
+    <title>Post</title>
+</head>
+<body>
+<nav>
+    <div class="logo">Surface</div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li id="guest-home-page"><a class="active" href="Home.html">Home</a></li>
+        <li id="guest-create-post"><a href="Posts.html">Create Post</a></li>
+        <li id="guest-live-events"><a class="tags" href="https://www.businessoffashion.com/events">Live Events</a></li>
+        <li><a class="tags" href="FashionWeek.html">Fashion Week</a></li>
+        <li id="guest-latest"><a class="tags" href="https://www.businessoffashion.com/news">Latest</a></li>
+        <li type="click" id="log-out" class="logBtn"><a>LogOut</a></li>
+    </ul>
+
+</nav>
+<div class="widget-post" aria-labelledby="post-header-title">
+    <div class="widget-post__header">
+        <h2 class="widget-post__title" id="post-header-title">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+            Write Me
+        </h2>
+    </div>
+    <form id="widget-form create-post-form" class="widget-post__form" name="form" aria-label="post widget">
+        <div class="widget-post__content">
+            <textarea name="caption" id="post-content" class="widget-post__textarea scroller" placeholder="What's on your mind?"></textarea>
+            <div class="image-preview" id="imagePreview">
+                <img src="" alt="Image Preview" class="image-preview__image">
+                <img src="" alt="" class="hidden-post-image" style="display: none; width: 500px;">
+            </div>
+        </div>
+        <div class="widget-post__options is--hidden" id="stock-options">
+        </div>
+        <div class="widget-post__actions post--actions">
+            <div class="post-actions__attachments">
+                <button type="button" class="btn post-actions__upload attachments--btn">
+                    <label for="upload-image" class="post-actions__label">
+                        <i class="fa fa-upload" aria-hidden="true"></i>
+                        upload image
+                    </label>
+                </button>
+                <input name="post_image" type="file" id="upload-image" accept="image/*">
+            </div>
+            <div class="post-actions__widget">
+                <button class="btn post-actions__publish" type="submit">publish</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="./js/posts.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

@@ -25,7 +25,9 @@ Registered users can like other users posts.
 ### - Database Setup
 
 #### - Database.sql :- https://github.com/ArsalanShakil/Surface/blob/main/database/Database.sql
-#### - Database ERD :- https://github.com/ArsalanShakil/Surface/blob/main/database/Surface%20Entity%20Relationship%20Diagram.jpg
+#### - Database ERD :- 
+   <img  height="300px" width="500px" src="https://github.com/ArsalanShakil/Surface/blob/main/database/Surface%20Entity%20Relationship%20Diagram.jpg" />
+
 We use PHPMyAdmin(maria DB) to create databases
 
 ```

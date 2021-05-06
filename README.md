@@ -25,7 +25,8 @@ Registered users can like other users posts.
 ![ezgif com-gif-maker (2)](https://github.com/ArsalanShakil/Surface/blob/main/ezgif.com-gif-maker%20(2).gif)
 
 ## PC
-
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/40695548/117312574-d01b3d80-ae8d-11eb-99c4-b6b8389ed4d6.gif)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/40695548/117313108-46b83b00-ae8e-11eb-8aed-6efdd235a623.gif)
 
 
 

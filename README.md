@@ -22,8 +22,9 @@ Registered users can like other users posts.
 
 ## Mobile
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/40695548/117309710-597d4080-ae8b-11eb-8f9a-461b1bb8d9b7.gif)
+![ezgif com-gif-maker (2)](https://github.com/ArsalanShakil/Surface/blob/main/ezgif.com-gif-maker%20(2).gif)
 
-
+## PC
 
 
 

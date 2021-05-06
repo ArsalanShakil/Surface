@@ -1,7 +1,6 @@
 # Surface
 
 Surface is a web development project done by the team Winterfell.
-https://mab.to/sYHKCcPs6
 
 # Features
 
@@ -14,6 +13,11 @@ Create user accounts and upload posts.
 Access as guest or a user.
 
 Registered users can like other users posts.
+
+# App Overview
+
+## Mobile
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/40695548/117309710-597d4080-ae8b-11eb-8f9a-461b1bb8d9b7.gif)
 
 
 

@@ -4,8 +4,7 @@
 
 # Surface
 
-Surface is a web development project done by the team Winterfell.https://mab.to/CjSPr2DvM
-
+Surface is a web development project done by the team Winterfell.
 # Features
 
 Mobile first responsive design.

@@ -4,18 +4,20 @@
 
 # Surface
 
-Surface is a web development project done by the team Winterfell.
+Surface is a web service that enables the fashion industry professional and fashion lovers to connect and stay updated with the latest happenings, events, collections and campaigns in the industry.
+<br>
 # Features
 
-Mobile first responsive design.
+- Mobile first responsive design.
 
-Animations and Interactions.
+- Animations and Interactions.
 
-Create user accounts and upload posts.
+- Create user accounts and upload posts.
 
-Access as guest or a user.
+- Access as guest or a user.
 
-Registered users can like other users posts.
+- Registered users can like other users posts.
+<br>
 
 # App Overview
 
